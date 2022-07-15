@@ -19,7 +19,7 @@ public class Contrat implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int reference;
-	
+	//Test-git
 	@Temporal(TemporalType.DATE)
 	private Date dateDebut;
 	
